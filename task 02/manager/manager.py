@@ -17,6 +17,9 @@ class Manager:
                 first = user.get("first_name", "")
                 last = user.get("last_name", "")
                 user["full_name"] = f"{first} {last}".strip()
+            # country ni location dan olish
+            if "country" not in user and "location" in user and "country" in user["location"]:
+                user["country"] = user["location"]["country"]
             # Faqat kerakli kalitlar bo'lsa, User obyektini yaratamiz
             if all(k in user for k in ("full_name", "email", "gender", "country")):
                 user_obj = User.from_dict(user)

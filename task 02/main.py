@@ -1,11 +1,9 @@
 from manager import Manager
-from models.User import User
-
 
 def main():
     manager = Manager()
-    manager.save_users("Data/users.json")
-
+    manager.get_user()  # Userlarni olish
+    manager.save_users("Data/users.json")  # Faylga yozish
 
 if __name__ == "__main__":
     main()
