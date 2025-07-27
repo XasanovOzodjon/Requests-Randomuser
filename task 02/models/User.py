@@ -15,13 +15,9 @@ class User:
 
     @classmethod
     def from_dict(cls, data):
-        try:
-            return cls(
-                full_name=data["full_name"],
-                email=data["email"],
-                gender=data["gender"],
-                country=data["country"]
-            )
-        except KeyError as e:
-            print(f"Missing key: {e}")
-            return None
+        return cls(
+            full_name=data["full_name"],
+            email=data["email"],
+            gender=data["gender"],
+            country=data["country"]
+        )

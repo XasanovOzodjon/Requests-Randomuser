@@ -16,7 +16,6 @@ class Manager:
     def load_users(self):
         user_data = get_random_user()
         if user_data != -1:
-            print(user_data)
             user = User.from_dict(user_data)
             self.users.append(user)
     

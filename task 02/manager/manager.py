@@ -10,7 +10,6 @@ class Manager:
     # manager.py ichida
     def get_user(self):
         user_data = get_random_users(10)
-        print("API dan kelgan user_data:", user_data)
         for user in user_data:
             # Formatni moslashtirish
             if "full_name" not in user:
