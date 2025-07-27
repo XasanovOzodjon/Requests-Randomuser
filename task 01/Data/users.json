@@ -1,0 +1,14 @@
+[
+    {
+        "first_name": "Swarna",
+        "last_name": "Namnaik",
+        "gender": "female",
+        "email": "swarna.namnaik@example.com",
+        "phone": "8664389626",
+        "address": {
+            "street": 4017,
+            "city": "Shimoga",
+            "country": "India"
+        }
+    }
+]
