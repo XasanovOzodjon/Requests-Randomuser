@@ -1,0 +1,47 @@
+[
+    {
+        "full_name": "Bogoljub Vlahovi\u0107",
+        "birth_year": 1980,
+        "email": "bogoljub.vlahovic@example.com"
+    },
+    {
+        "full_name": "Gonzalo Moreno",
+        "birth_year": 1954,
+        "email": "gonzalo.moreno@example.com"
+    },
+    {
+        "full_name": "Vladana Filipovi\u0107",
+        "birth_year": 1952,
+        "email": "vladana.filipovic@example.com"
+    },
+    {
+        "full_name": "Ulrike F\u00e4rber",
+        "birth_year": 1985,
+        "email": "ulrike.farber@example.com"
+    },
+    {
+        "full_name": "Veera Kyllo",
+        "birth_year": 1977,
+        "email": "veera.kyllo@example.com"
+    },
+    {
+        "full_name": "Flaviana Souza",
+        "birth_year": 1987,
+        "email": "flaviana.souza@example.com"
+    },
+    {
+        "full_name": "Christina Mason",
+        "birth_year": 1987,
+        "email": "christina.mason@example.com"
+    },
+    {
+        "full_name": "Ladomila Tovstuha",
+        "birth_year": 1963,
+        "email": "ladomila.tovstuha@example.com"
+    },
+    {
+        "full_name": "Konsta Korhonen",
+        "birth_year": 1970,
+        "email": "konsta.korhonen@example.com"
+    }
+]
